@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    font-family: Montserrat ;
+    margin: 0;
+    text-align: center;
+   
+    
+}
+.top-hedder h1{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 78.66px;
+    margin: 0;
+    
+    color: #fff;
+
+}
+.top-hedder p{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.top-hedder{
+     background-image: url(images/donation13.jpg);
+    background-size: cover;
+    width: auto;
+    padding: 200px 0;
+    
+      
+}
+.button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+
+.flex-box{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    margin: 30px 20px;
+    padding: 40px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+.b-box{
+    margin: 30px 10px;
+    padding: 50px 20px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    text-align: left;
+    
+    
+}
+#p{
+background-color: #a0d4a0;
+}
+#r{
+background-color: #f1c4c4;
+}
+#y{
+background-color: #FFF4D6;
+}
+#unique{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    
+}
+.input-box{
+    border: none;
+}
+hr{
+    width: 50%; margin-bottom: 30px; color: #707070 ;
+
+}
+.donait-today{
+    width: auto;
+    padding: 100px 0;
+}
+footer{
+    width: auto;
+    padding: 40px 0;
+    background-color: #0B0D17;
+}
+footer h2{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+}
+footer p
+{
+    color: #fff;
+}
