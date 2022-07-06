@@ -5,7 +5,7 @@ body{
     font-family: Montserrat ;
     margin: 0;
     text-align: center;
-   
+    
     
 }
 .top-hedder h1{
@@ -18,6 +18,9 @@ body{
     color: #fff;
 
 }
+.top-hedder h1 span{
+    color: tomato;
+}
 .top-hedder p{
     color: #fff;
     margin-bottom: 30px;
@@ -27,6 +30,7 @@ body{
     background-size: cover;
     width: auto;
     padding: 200px 0;
+    opacity: 20px;
     
       
 }
@@ -56,9 +60,10 @@ body{
     padding: 50px 20px;
     background-color: #FAFAFA;
     border-radius: 5px;
-    text-align: left;
-    
-    
+    text-align: left;   
+}
+.our-color h2 span{
+    color: tomato;
 }
 #p{
 background-color: #a0d4a0;
@@ -98,3 +103,48 @@ footer p
 {
     color: #fff;
 }
+
+
+.email{
+    margin: 30px 250px;
+    padding: 50px 20px;
+    background-color: #FFF4D6;
+    border-radius: 5px;
+    text-align: left;
+}
+.sub-part{
+    text-align: center;
+}
+.sub-part input{ 
+    width: 250px;
+    height: 35px;
+}
+.last-section h5{
+    color: tomato;
+
+}
+.last-section{
+    margin-top: 60px;
+}
+.image-section{
+    box-sizing: border-box;
+    
+}
+.img-row{
+    display: flex;
+    padding: 0 5px;
+    margin-left: 250px;
+
+}
+.img-collum{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 5px;
+}
+.img-collum img{
+    width: 100%;
+    margin-top: 8px;
+}
+
+
+
